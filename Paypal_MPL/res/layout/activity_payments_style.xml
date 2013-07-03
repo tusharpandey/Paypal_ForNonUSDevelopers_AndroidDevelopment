@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SimplePayment"
+        android:onClick="simplePayment"
+        android:layout_margin="30dp"
+        />
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ParallelPayment"
+        android:onClick="parallelpayment"
+        android:layout_margin="30dp"
+        />
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChainedPayment"
+        android:onClick="chainedpayment"
+        android:layout_margin="30dp"
+        />
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preapproval"
+        android:onClick="preapproval"
+        android:layout_margin="30dp"
+        />
+    
+</LinearLayout>
