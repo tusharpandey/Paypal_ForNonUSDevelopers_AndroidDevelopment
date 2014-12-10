@@ -15,6 +15,8 @@ public class asynctaskToInitLibrary extends AsyncTask<String, Integer, String >
 	asynctaskToInitLibrary ( Paypal_MPL object )
 	{
 		this.object = object ;
+		
+		Log.e("Hello world", "Hello world") ;
 	}
 	
 	@Override
